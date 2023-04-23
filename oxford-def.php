@@ -109,7 +109,7 @@ h1 {
 
 function resizeText()
 {
-  $('.jtextfill').textfill({ maxFontPixels: 250 });
+  $('.jtextfill').textfill({ maxFontPixels: 250});
 }
 $(document).ready(resizeText);
 //$(window).resize(resizeText);
